@@ -119,7 +119,7 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  position: left
+  position: right
   #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
@@ -132,7 +132,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  display: always
 
   # Sidebar padding in pixels.
   padding: 18
@@ -288,7 +288,7 @@ follow_me:
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 related_posts:
-  enable: false
+  enable: true
   icon: fa fa-signs-post
 
 # Post edit
@@ -371,9 +371,9 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
-    style:
+    style: mac
   # Fold code block
   fold:
     enable: false
@@ -388,7 +388,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
@@ -564,7 +564,7 @@ math:
   mathjax:
     enable: true
     # Available values: none | ams | all
-    tags: none
+    tags: all
 
   katex:
     enable: true
